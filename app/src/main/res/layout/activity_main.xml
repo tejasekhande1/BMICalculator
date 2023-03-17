@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/llmain"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/inpt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ht"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:autofillHints="name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/wt"
+        android:id="@+id/inpt2"
+        android:inputType="number">
+    </EditText>
+
+    <EditText
+        android:autofillHints="name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/in"
+        android:id="@+id/inpt3"
+        android:inputType="number">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnid"
+        />
+
+    <TextView
+        android:id="@+id/resid"
+        android:layout_width="352dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:text="@string/res"
+        android:textSize="20dp" />
+</LinearLayout>
